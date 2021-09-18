@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<base href="/">
+
+		<meta http-equiv="Content-Language" content="pt-br">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta charset="iso-8859-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<title>Exercício 1</title>
+	</head>
+	
+	<body>
+		<div class="row">
+			<div class="container-fluid">
+				<div class="col-lg-4">
+					<form id="cadastrar_form" name="cadastrar_form" method="post" class="form-horizontal">
+						<label class="col-xs-12" style="color:#036; font-size:16px; font-weight:bold; margin-top:20px; margin-bottom:10px;"><i class="far fa-file-alt"></i> Cadastrar Produto:</label>
+
+						<div class="form-group">
+							<div class="col-xs-12" style="margin-top: 5px;">
+								<label class="col-xs-12">Descrição*</label>
+								<div class="col-xs-12">
+									<input name="nome" type="text" id="nome" class="form-control" value="" required/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-6 col-xs-12" style="margin-top: 5px;">
+								<label class="col-xs-12">Valor*</label>
+								<div class="col-xs-12">
+									<input name="valor" type="text" id="valor" class="form-control" required/>
+								</div>
+							</div>
+							<div class="col-sm-6 col-xs-12" style="margin-top: 5px;">
+								<label class="col-xs-12">Estoque*</label>
+								<div class="col-xs-12">
+									<input name="estoque" type="number" id="estoque" class="form-control" required/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group" style="margin-top:40px;">
+							<div class="col-xs-12">
+								<button type="submit" name="button" class="btn btn-primary btn-md pull-right">
+									CADASTRAR <i class="fa fa-arrow-right"></i>
+								</button>
+								<div class="resultado pull-right"></div>
+							</div>
+						</div>
+					</form>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/7491pBeYk9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="col-lg-8">
+					<table border="1">
+						<tr>
+							<td align="center"><b>Foto</b></td>
+							<td><b>Descrição</b></td>
+							<td><b>Valor R$</b></td>
+						</tr>
+						<tr>
+							<td><img src="/imagens/1.webp" width="200px"></td>
+							<td>Arroz 5kg</td>
+							<td>R$ 22,00</td>
+						</tr>
+						<tr>
+							<td><img src="/imagens/2.png" width="200px"></td>
+							<td>Feijão 1kg</td>
+							<td>R$ 16,00</td>
+						</tr>
+						<tr>
+							<td><img src="/imagens/3.webp" width="200px"></td>
+							<td>Óleo de Soja</td>
+							<td>R$ 10,00</td>
+						</tr>
+						<tr>
+							<td><img src="/imagens/4.webp" width="200px"></td>
+							<td>Macarrão</td>
+							<td>R$ 8,00</td>
+						</tr>
+						<tr>
+							<td><img src="/imagens/5.webp" width="200px"></td>
+							<td>Detergente</td>
+							<td>R$ 2,00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
